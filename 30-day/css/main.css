@@ -1,0 +1,101 @@
+body{margin:0;padding:0;font-family:'Open Sans',sans-serif;font-size:100%;color:#333;background:#00d6ff}
+@font-face{font-family:'BebasNeue';src:url(fonts/BebasNeue.eot);src:url(fonts/BebasNeue.eot?#iefix) format("embedded-opentype"),url(fonts/BebasNeue.woff) format("woff"),url(fonts/BebasNeue.ttf) format("truetype"),url(fonts/BebasNeue.svg) format("svg");font-weight:400;font-style:normal}
+a img{border:0;outline:none}
+a{text-decoration:none;color:#00d6ff;outline:none}
+a:hover{text-decoration:underline;outline:none}
+body,h1,h2,h3,h4,h5,h6,form,input,ol,ul,p,dl,dt,dd{margin:0;padding:0}
+input,textarea{outline:none}
+h1,h2,h3{font-family:'BebasNeue';color:#000;font-weight:400;padding:0 0 25px}
+h2{font-size:72px;line-height:72px}
+p{font-size:24px;color:#000;margin-bottom:20px}
+img{max-width:100%}
+.secSpacing{padding-top:100px;padding-bottom:100px}
+.HeroImage{overflow:hidden;background:url(../images/heroimage.jpg) no-repeat center top}
+.navbar{background-color:rgba(0,214,255,.7)}
+.navbar-toggler{border:2px solid #000}
+.navbar-nav li{padding:0 10px}
+.navbar-nav li a{color:#000;font-weight:700;font-size:24px}
+.navbar-nav li a:hover{color:#ff7200}
+.nav-link{padding-top:12px;padding-bottom:12px}
+a.commonBtn,button.commonBtn{padding:20px 60px;margin:15px 0;font-size:24px;line-height:24px;text-align:center}
+a.commonBtn,button.commonBtn,.navbar .commonBtn{background:#ff7200;color:#fff;font-weight:800;display:inline-block}
+a.commonBtn:hover,button.commonBtn:hover,.navbar a.commonBtn:hover{background:#000;text-decoration:none}
+.navbar .commonBtn{position:absolute;right:0;top:5px;padding:15px 30px;margin:0}
+.navbar > .container{position:relative}
+.bannerArea{margin-top:82px;padding:80px 0 130px}
+.intro-text{text-align:center}
+.intro-text h1{font-size:45px;line-height:45px;font-family:'BebasNeue';background:#00d6ff;width:48%;color:#000;text-align:center;padding:10px 30px;margin:0 auto 12px;position:relative}
+.intro-text h1::before{content:"";position:absolute;left:0;top:0;width:0;height:0;border-right:22px solid transparent;border-top:22px solid #000}
+.intro-text h1::after{content:"";position:absolute;right:0;bottom:0;width:0;height:0;border-left:22px solid transparent;border-bottom:22px solid #000}
+.intro-big-text{font-family:'BebasNeue';font-size:247px;line-height:208px;color:#fff;color:#000;-webkit-text-fill-color:#fff;-webkit-text-stroke-width:6px;-webkit-text-stroke-color:#000}
+.intro-big-sub{font-size:60px;line-height:42px;font-family:'BebasNeue';color:#00d6ff;margin-bottom:15px}
+.darkBg{background:rgba(0,0,0,.6);width:48%;margin:0 auto;padding:30px 50px}
+.intro-text p{font-size:24px;line-height:32px;color:#fff}
+.dealWrap{background:url(../images/dealbg.png) no-repeat left top/cover;padding:10px 0 35px}
+.blackTitle{background:#000;position:relative}
+.blackTitle::before{content:'';position:absolute;left:0;right:0;margin:0 auto;bottom:-60px;width:0;height:0;border-left:434px solid transparent;border-right:434px solid transparent;border-top:63px solid #000}
+.blackTitle h2{color:#00d6ff;padding:55px 0}
+.prizesBg{background:url(../images/prizes.jpg) no-repeat center top /cover #dcdde1}
+ul.dottedList{list-style:none}
+ul.dottedList li{border-top:1px dashed #000;color:#000;padding:25px;font-size:30px;line-height:30px;font-family:'BebasNeue'}
+ul.dottedList li:last-child{border-bottom:1px dashed #000}
+ul.numberedList{list-style-type:none}
+ul.numberedList li{border-bottom:1px dashed #000;color:#000;padding:15px 0;font-size:24px}
+ul.numberedList li span{color:#000;text-align:left;font-size:90px;line-height:90px;font-family:'BebasNeue'}
+ul.numberedList li p{padding:0 20px}
+ul.numberedList li:last-child{border-bottom:0}
+.shade_top{background:url(../images/shade-top.png) no-repeat center top}
+.shade_bottom{background:url(../images/shade-bottom.png) no-repeat center bottom}
+.prizesBg .shade_top{padding-top:73px}
+.winnerWrap{background:url(../images/howWinner.jpg) no-repeat center center /cover #e7e3c8}
+.motivationWrap{background:url(../images/motivationBg.jpg) no-repeat center center /cover #e5e5e5}
+.communityWrap{background:url(../images/community-support.jpg) no-repeat center center /cover #f3f3f3}
+.registerWrp{background:url(../images/registerBg.jpg) no-repeat center bottom /cover #e7e3c8}
+.registerWrp h2{color:#00d6ff;text-align:center}
+.registerWrp p{color:#fff}
+.registerWrp .commonBtn{margin:0 auto;float:none;display:block;width:320px}
+.aboutWrp{background:url(../images/aboutBg.jpg) no-repeat center center /cover #e7e3c8}
+.aboutBox{text-align:center;padding:20px;background:url(../images/aboutBoxbg.png) no-repeat center bottom/100% 100%}
+.aboutBox h3{font-size:42px;color:#00d6ff}
+.aboutText{padding:10px;font-size:42px;line-height:42px;margin:20px 0 0;background:#00d6ff;font-family:'BebasNeue'}
+#footer{background:#000;color:#FFF;padding:30px 0}
+#footer ul{list-style:none;padding:20px 0 0}
+#footer ul li{font-size:20px;line-height:22px;display:inline;padding:0 12px 0 0;text-transform:uppercase}
+#footer ul li a{color:#fff}
+#footer p{padding-top:12px;font-size:18px;color:#FFF}
+@media (min-width:1900px) {
+.HeroImage{background-size:100%}
+}
+@media (max-width:1200px) {
+.HeroImage{background-size:cover}
+.intro-text h1{width:60%}
+.intro-big-text{font-size:210px}
+.darkBg{width:70%}
+.blackTitle::before{bottom:-40px;border-left:334px solid transparent;border-right:334px solid transparent;border-top:43px solid #000}
+}
+@media (max-width:960px) {
+.navbar{padding:20px 1rem}
+.navbar .commonBtn{padding:8px 15px;margin:0;font-size:20px;top:0;line-height:20px}
+}
+@media (max-width:768px) {
+h2{font-size:55px;line-height:55px}
+.navbar a.commonBtn{padding:10px 20px;font-size:20px;line-height:20px}
+.intro-text h1{width:80%;font-size:40px;line-height:40px}
+.intro-big-text{font-size:190px;line-height:180px}
+.intro-big-sub{font-size:50px;line-height:50px;margin-bottom:20px}
+.darkBg{width:80%}
+.communityWrap,.winnerWrap,.motivationWrap{background-image:none}
+.dealWrap{background:url(../images/dealbg.png) no-repeat left top/cover;padding:30px 0}
+.blackTitle h2{padding:30px 0}
+.blackTitle::before{bottom:-30px;border-left:134px solid transparent;border-right:134px solid transparent;border-top:33px solid #000}
+.aboutWrp .col-md-4{margin-bottom:25px}
+}
+@media (max-width:540px) {
+.navbar a.commonBtn{padding:10px 20px;font-size:20px;line-height:20px}
+.intro-big-text{font-size:160px;line-height:160px;-webkit-text-stroke-width:4px}
+a.commonBtn{padding:15px 30px;font-size:25px;line-height:25px}
+.prizesBg,.winnerWrap,.motivationWrap,.communityWrap{background-image:none}
+}
+@media (max-width:440px) {
+.intro-big-text{font-size:120px}
+}

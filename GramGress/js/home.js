@@ -1,0 +1,1 @@
+(function(){var e,t,n;"undefined"!=typeof Odometer&&null!==Odometer&&(e=1102,t=new Odometer({el:$("#follower-odo")[0],value:1e3}),t.update(e),n=setInterval(function(){return e+=Math.round(5e3*Math.random()+50),t.update(e)},5e3))}).call(this);
